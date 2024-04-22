@@ -1,4 +1,4 @@
-export default function CurrentTurn({ isSelected, letter, winner }) {
+export default function CurrentTurn({ letter, winner, isSelected }) {
   let className = `turn ${isSelected ? "selected" : ""}`;
 
   if (winner === letter) {
